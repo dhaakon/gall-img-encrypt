@@ -1,0 +1,18 @@
+{
+  "name": "image-string",
+  "version": "1.0.0",
+  "description": "image + string - encoder/decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encode": "node index.js --encode ",
+    "decode": "node index.js --decode "
+  },
+  "author": "dhaakon",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "btoa": "^1.1.2",
+    "utf8": "^2.1.2"
+  }
+}
